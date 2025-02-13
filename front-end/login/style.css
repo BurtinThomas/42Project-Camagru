@@ -2,21 +2,23 @@ body {
     background-color: black;
 }
 
-h2 {
-    color: rgb(245, 245, 245);
-    font-family: Billabong;
-}
-
 #login ::placeholder {
     color: rgb(164, 164, 164);
 }
 
 #login input {
+    color: rgb(255, 255, 255);
     background-color: rgb(18, 18, 18);
     border: 1px solid rgb(85, 85, 85);
     font-size: 12px;
     padding-left: 8px;
     border-radius: 3px;
+}
+
+#logo-img {
+    margin-top: 20px;
+    width: 250px;
+    height: auto;
 }
 
 #login button {
@@ -29,7 +31,7 @@ h2 {
     font-weight: bold;
 }
 
-#card {
+#card1 {
     border: 1px solid rgb(54, 54, 54);
     width: 350px;
     height: 475px;
@@ -39,17 +41,31 @@ h2 {
     align-items: center;
 }
 
+#card2 {
+    border: 1px solid rgb(54, 54, 54);
+    width: 350px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(245, 245, 245);
+}
+
 main {
+    font-family: system-ui;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #login form{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 5px;
 }
 
@@ -58,4 +74,10 @@ main {
     width: 275px;   
     height: 35px;
     box-sizing: border-box;
+}
+
+#card2 a {
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+    margin-left: 5px;
 }
