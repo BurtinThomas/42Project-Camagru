@@ -2,11 +2,11 @@ body {
     background-color: black;
 }
 
-#login ::placeholder {
+#register-form ::placeholder {
     color: rgb(164, 164, 164);
 }
 
-#login input {
+#register-form input {
     color: rgb(255, 255, 255);
     background-color: rgb(18, 18, 18);
     border: 1px solid rgb(85, 85, 85);
@@ -21,12 +21,12 @@ body {
     height: auto;
 }
 
-#login-img {
+#phone-img {
     width: 450px;
     height: auto;
 }
 
-#login button {
+#register-form button {
     color: rgb(164, 164, 164);
     background-color: rgb(46, 108, 181);
     border: none;
@@ -67,14 +67,14 @@ main {
     margin-top: 40px;
 }
 
-#login form{
+#register-form form{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-#login input, #login button {
+#register-form input, #register-form button {
     font-family: system-ui;
     width: 275px;   
     height: 35px;
